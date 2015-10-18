@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["http://voat.co/*"],
-      "js": ["jquery.min.js", "hide.js"]
+      "js": ["jquery.min.js", "scripts/hide.js"]
     }
   ],
   
