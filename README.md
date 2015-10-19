@@ -8,11 +8,9 @@ Sceenshot:
 
 Installation instructions:
 
-1. Option one for getting the .crx
+1. Getting the .crx
   1. Download this repository
   2. Unzip
   3. Find the .crx
-2. Option two
-  1. Click [this](http://jack.antinode.ca/reVoat.crx) link (ignore weird error)
 3. Open [chrome://extensions/](chrome://extensions/) and drag the .crx in
 4. Done!
