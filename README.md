@@ -9,7 +9,7 @@ Sceenshot:
 Installation instructions:
 
 1. Getting the .crx
-  1. Download this repository
+  1. [Download](https://github.com/purpleicious/reVoat/archive/master.zip) this repository
   2. Unzip
   3. Find the .crx
 3. Open [chrome://extensions/](chrome://extensions/) and drag the .crx in
