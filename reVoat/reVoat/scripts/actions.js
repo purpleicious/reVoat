@@ -1,0 +1,2 @@
+$("head").append("<style type='text/css'>.hideMe{display: none;}</style>");
+$("head").append("<script type='text/javascript'>function hideOn (post) { $(post).parent().parent().parent().parent().parent().addClass('hideMe'); } function hideOff () {$('.hideMe').removeClass('hideMe');}</script>");
