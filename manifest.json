@@ -6,9 +6,13 @@
   "version": "1.5",
   "author": "jacksarick@gmail.com",
  
-  "browser_action": {
+  "page_action": {
    "default_icon": "icon.png",
    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
   },
 
   "content_scripts": [
@@ -21,6 +25,7 @@
 
   "permissions": [
    "activeTab",
+   "tabs",
    "https://voat.co/",
    "unlimitedStorage"
    ]
