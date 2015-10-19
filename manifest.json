@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "reVoat",
+  "description": "My Voat Enhancer",
+  "version": "1.5",
+  "author": "jacksarick@gmail.com",
+ 
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": ["https://voat.co/*"],
+      "js": ["jquery.min.js", "scripts/hide.js", "scripts/actions.js"]
+    }
+  ],
+
+  "permissions": [
+   "activeTab",
+   "https://voat.co/",
+   "unlimitedStorage"
+   ]
+}
