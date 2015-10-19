@@ -4,7 +4,15 @@ An extension for Voat to (hopefully) improve your experience
 I noticed a lot of requests for "blah blah **hide something** blah blah", so I made an extension to do just that. It adds an option to "hide" a post, or unhide all hidden posts. It's a work in progress, I'm open to suggestion, and I haven't published it to the chrome store yet, because of the $5 registration fee.
 
 Sceenshot:
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
+![alt tag](https://raw.github.com/purpleicious/reVoat/master/screenshot.png)
 
 Installation instructions:
-[Click this link]()
+
+1. Option one for getting the .crx
+  1. Download this repository
+  2. Unzip
+  3. Find the .crx
+2. Option two
+  1. Click [this](http://jack.antinode.ca/reVoat.crx) link (ignore weird error)
+3. Open [chrome://extensions/](chrome://extensions/) and drag the .crx in
+4. Done!
